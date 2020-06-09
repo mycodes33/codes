@@ -1,0 +1,65 @@
+.admin-page {
+    padding-top: 3.5rem;
+}
+.admin-page h2 {
+    color: #555;
+    font-size: 1.2rem;
+    margin: 1.5rem 2rem .5rem;
+}
+
+.admin-page .admin-item {
+    height: 5.5rem;
+    background: #f2f2f2;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem 2rem;
+}
+.admin-page .admin-item img {
+    width: 3.5rem;
+    border-radius: 30%;
+    position: absolute;
+}
+.admin-page .admin-item h3 {
+    color: #4b7bec;
+    margin-left: 5rem;
+}
+.admin-page .admin-item p {
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.admin-page .admin-item span {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.admin-page .card-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.admin-page .card {
+    width: calc(54vw - 4rem);
+    height: calc(65vw - 4rem);
+    background: #3867d6;
+    border-radius: .5rem;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: -2;
+}
+.admin-page .card svg {
+    width: 9rem;
+    fill: #4b7bec;
+    position: absolute;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+.admin-page .card h3, .card span {
+    top: 33vw;
+    left: 1rem;
+    color: #fff;
+    position: relative;
+}

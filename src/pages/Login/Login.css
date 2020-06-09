@@ -1,0 +1,35 @@
+.login {
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.login h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.login input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: .1rem solid #ccc;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.login p {
+    color: #f03c3c;
+    font-size: .8rem;
+    text-align: center;
+}
+.login button {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #555;
+    border: none;
+    border-radius: 2rem;
+    display: block;
+    padding: .7rem 2.5rem;
+    margin: 1rem auto 0;
+}

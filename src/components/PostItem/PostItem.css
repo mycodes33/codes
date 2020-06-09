@@ -1,0 +1,21 @@
+.post-item {
+    margin: 1.5rem;
+}
+.post-item h2 {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+.post-item .body {
+    height: 7.1rem;
+    line-height: 1.4rem;
+    color: #333;
+    overflow: hidden;
+}
+.post-item button {
+    color: #4b7bec;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    margin-top: .3rem;
+}

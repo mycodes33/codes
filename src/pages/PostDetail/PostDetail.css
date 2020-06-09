@@ -1,0 +1,36 @@
+.post-detail {
+    min-height: calc(100vh - 3.5rem);
+    position: relative;
+    padding-top: 3.5rem;
+}
+.post-detail h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem 1.5rem 0;
+}
+.post-detail .time {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: .3rem 1.5rem 1.5rem;
+}
+.post-detail .body p {
+    line-height: 1.7rem;
+    color: #333;
+    font-size: 1.1rem;
+    text-indent: 2rem;
+    margin: 1rem 1.5rem 0;
+}
+.post-detail .tags {
+    padding-bottom: 1rem;
+    margin: 1rem 1.5rem 0;
+}
+.post-detail .tags span {
+    color: #4b7bec;
+    margin: 0 .3rem;
+}
+.comment-list {
+    margin: 2rem;
+}
+.comment-list h3 {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,107 @@
+.menu {
+    width: 100%;
+    line-height: 3.5rem;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 .5rem .5rem -.5rem #ddd;
+    position: fixed;
+    z-index: 1;
+}
+.i-menu {
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 1.1rem;
+    position: absolute;
+    cursor: pointer;
+}
+.i-menu span {
+    width: 1.2rem;
+    height: .15rem;
+    top: .52rem;
+    background: #000;
+    border-radius: .2rem;
+    position: absolute;
+    margin: 0;
+    transition: .3s;
+}
+.i-menu span::before {
+    content: '';
+    width: .4rem;
+    height: .15rem;
+    top: -.5rem;
+    background: #000;
+    border-radius: .2rem;
+    position: absolute;
+    transition: .3s;
+}
+.i-menu span::after {
+    content: '';
+    width: .8rem;
+    height: .15rem;
+    top: .5rem;
+    background: #000;
+    border-radius: .2rem;
+    position: absolute;
+    transition: .3s;
+}
+.i-menu span::before, .menu .i-menu span::after {
+    right: 0;
+}
+.i-menu .open {
+    transform: rotate(45deg);
+}
+.i-menu .open::before {
+    transform: rotate(-90deg) translate(-.14rem, -.4rem) scaleX(1.2);
+}
+.i-menu .open::after {
+    transform: rotate(-90deg) translate(.3rem, -.2rem);
+}
+.i-search {
+    width: 1.2rem;
+    height: 1.2rem;
+    top: .2rem;
+    right: 4rem;
+    position: absolute;
+}
+h3 {
+    margin-left: 1.5rem;
+}
+
+.menu-list {
+    width: 100%;
+    height: 100vh;
+    top: 3.5rem;
+    background: #fff;
+    position: fixed;
+    padding-top: 2rem;
+    z-index: 1;
+}
+.category-menu p {
+    line-height: 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.pages {
+    width: 100%;
+    bottom: 10rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+}
+.pages p {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+.social {
+    width: 100%;
+    bottom: 5rem;
+    text-align: center;
+    position: fixed;
+}
+.social svg {
+    width: 2rem;
+    margin: 0 1rem;
+}

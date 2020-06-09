@@ -1,0 +1,23 @@
+.message-list {
+    padding-top: 3.5rem;
+}
+.message-list div {
+    background: #f2f2f2;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+}
+.message-list h4 {
+    height: 1.5rem;
+    overflow: hidden;
+}
+.message-list p {
+    color: #4b7bec;
+}
+.message-list span {
+    color: #555;
+    font-size: .8rem;
+}
+.message-list .read {
+    font-weight: normal;
+}

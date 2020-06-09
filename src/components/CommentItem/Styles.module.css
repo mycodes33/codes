@@ -1,0 +1,25 @@
+.item {
+    border-bottom: .1rem solid #ddd;
+    position: relative;
+    padding: 1.2rem 0;
+}
+img {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 30%;
+    position: absolute;
+}
+h4 {
+    margin-left: 4.5rem;
+}
+p {
+    color: #555;
+    margin: .5rem 0 0 4.5rem;
+}
+.create {
+    top: .5rem;
+    right: 0;
+    color: #aaa;
+    font-size: .8rem;
+    position: absolute;
+}

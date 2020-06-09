@@ -1,0 +1,14 @@
+.about {
+    min-height: calc(100vh - 3.5rem);
+    position: relative;
+    padding-top: 3.5rem;
+}
+.about h2 {
+    margin: 1.5rem;
+}
+.about p {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    text-indent: 2rem;
+    margin: 1.5rem;
+}

@@ -1,0 +1,53 @@
+.search-post {
+    width: 100%;
+    top: 3.5rem;
+    background: #fff;
+    position: fixed;
+    padding: 1.5rem;
+    z-index: 2;
+}
+.search-post input {
+    width: 100%;
+    color: #555;
+    font-size: 1rem;
+    border: .1rem solid #ddd;
+    border-radius: .3rem;
+    padding: .5rem 2rem .5rem .5rem;
+}
+.search-post svg {
+    width: 1rem;
+    top: 2.2rem;
+    right: 2rem;
+    fill: #555;
+    position: absolute;
+}
+
+.search-result {
+    width: 100%;
+    min-height: 100vh;
+    top: 9rem;
+    background: #fff;
+    position: fixed;
+    z-index: 2;
+}
+.search-result h4 {
+    color: #aaa;
+    font-size: 1.1rem;
+    margin: 1rem 1.5rem .5rem 1.5rem;
+}
+.search-result span {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 5rem;
+}
+.search-result .search-item {
+    border-top: .1rem solid #ddd;
+    padding: 1rem 0;
+    margin: 0 1.5rem;
+}
+.search-result .search-item div {
+    height: 1.5rem;
+    color: #888;
+    overflow: hidden;
+}

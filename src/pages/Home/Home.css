@@ -1,0 +1,48 @@
+.home {
+    min-height: calc(100vh - 3.5rem);
+    position: relative;
+    padding-top: 3.5rem;
+}
+.home h3 {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-bottom: .3rem;
+    margin:  0 1.5rem;
+}
+.home .popular {
+    padding-bottom: .5rem;
+}
+.home .item {
+    height: 3.5rem;
+    position: relative;
+    margin: 1rem 2rem;
+}
+.home .item img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .5rem;
+    position: absolute;
+}
+.home .item p {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 4.5rem;
+}
+.home .item span {
+    color: #4b7bec;
+    font-size: .9rem;
+    margin-left: 4.5rem;
+}
+footer {
+    width: 100%;
+    line-height: 3.5rem;
+    bottom: -3.5rem;
+    font-size: .8rem;
+    text-align: center;
+    background: #eee;
+    position: absolute;
+}
+footer span {
+    color: #4b7bec;
+}

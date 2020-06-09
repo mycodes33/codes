@@ -1,0 +1,67 @@
+.editor {
+    padding: 1.5rem;
+}
+select {
+    width: 100%;
+    border: none;
+    border-radius: .3rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+input[type="text"] {
+    width: 100%;
+    font-size: 1rem;
+    border: .1rem solid #ccc;
+    border-radius: .3rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+textarea {
+    width: 100%;
+    height: 25rem;
+    font-size: 1rem;
+    border: .1rem solid #ccc;
+    border-radius: .3rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+#tagInput {
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    border-bottom: .1rem solid #ccc;
+    padding: .5rem;
+}
+.tags {
+    margin: 1rem 0;
+}
+#tagBtn {
+    color: #4b7bec;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    margin-left: 1rem;
+}
+span {
+    color: #1890ff;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+span:hover {
+    color: #aaa;
+    text-decoration: line-through;
+}
+input[type="checkbox"] {
+    margin-left: .5rem;
+}
+#save {
+    color: #fff;
+    font-weight: bold;
+    background: #555;
+    border: none;
+    border-radius: .5rem;
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,16 @@
+.message-detail {
+    padding-top: 3.5rem;
+}
+.message-detail h3 {
+    margin: 1.5rem 1.5rem 0;
+}
+.message-detail span {
+    color: #aaa;
+    margin: 0 1.5rem;
+}
+.message-detail p {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    text-indent: 2rem;
+    margin: 1.5rem;
+}

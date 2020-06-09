@@ -1,0 +1,11 @@
+.post-list {
+    padding-top: 4rem;
+}
+.post-list button {
+    color: #4b7bec;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #fff;
+    border: none;
+    margin: .5rem 1.5rem 0;
+}
